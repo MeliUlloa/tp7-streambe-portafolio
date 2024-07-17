@@ -1,0 +1,81 @@
+
+#home img {
+    width: 250px; /* Cambia el tamaño según necesites */
+    height: 250px; /* Mantiene la proporción de la imagen */
+    top: 20px; /* Ajusta la posición superior */
+    left: 10px; /* Ajusta la posición izquierda */
+    border-radius: 100%; /* Hace que la imagen sea redonda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+}
+
+#home h6 {
+    color: rgb(107, 105, 105);
+}
+
+#portfolio {
+    display: flex; /* Utilizamos flexbox para alinear elementos */
+    justify-content: center; /* Centramos las tarjetas horizontalmente */
+    align-items: center; /* Centramos las tarjetas verticalmente */
+    flex-wrap: wrap; /* Envuelve las tarjetas si se desbordan del contenedor */
+    padding: 20px; /* Añade relleno al contenedor */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+#portfolio img {
+    width: 250px; /* Ancho fijo para cada imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    margin: 10px; /* Margen exterior para separar las tarjetas */
+    justify-content: center;
+}
+
+#about {
+    text-align: center;
+    max-width: 800px; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px;
+}
+
+#about p{
+    color: rgb(107, 105, 105);
+}
+
+hr {
+    width: 50%; /* Ajusta el ancho según lo que necesites */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+#contact{
+    max-width: 800px; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#about, #contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #000; /* Color normal del ícono */
+    text-decoration: none;
+    font-size: 24px; /* Tamaño del ícono */
+}
+
+#footerUno {
+    background-color:#8b8686;
+}
+
+#footer {
+    padding: 20px 0;
+}
+
+#footer .col-md-6 {
+    margin-bottom: 20px; /* Para agregar un margen inferior entre las columnas en dispositivos pequeños */
+}
